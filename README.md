@@ -1,5 +1,13 @@
 # Typescript template for Bitburner's Remote File API
 
+## TLDR;
+
+1. `npm install`
+2. `npm run watch`
+3. In game go to Options and connect with port **12525**
+
+## Info
+
 The official template for synchronizing Typescript/Javascript from your computer to the game.
 
 [Step by step install](BeginnersGuide.md)
@@ -7,6 +15,7 @@ The official template for synchronizing Typescript/Javascript from your computer
 [Docker install guide](DockerGuide.md) (optional) 
 
 [Learn more about Typescript](https://www.typescriptlang.org/docs/)
+
 
 ## About
 
