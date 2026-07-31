@@ -82,7 +82,7 @@ Some `ns` functions, like [`ns.printRaw()`](https://github.com/bitburner-officia
 
 The game already exposes the `React` and `ReactDOM` objects globally, but in order to work with strongly typed versions in `.ts` files, you can use the included typings. To do this, use the following import:
 
-`import React, { ReactDOM } from '@react'`
+`import React from '@react'`
 
 Support for jsx is also included, so if you use the `.tsx` file ending, you can do something like:
 
