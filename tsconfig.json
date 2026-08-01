@@ -3,8 +3,8 @@
   "exclude": ["src/lib/react.ts"],
   "compilerOptions": {
     "module": "esnext",
-    "target": "esnext",
-    "moduleResolution": "node",
+    "target": "es2023",
+    "moduleResolution": "bundler",
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "esModuleInterop": true,
@@ -13,13 +13,11 @@
     "strict": true,
     "rootDir": "src/",
     "outDir": "dist/",
-    "baseUrl": "src/",
     "allowJs": true,
     "jsx": "react",
     "paths": {
-      "/*": ["*"],
-      "@ns": ["../NetscriptDefinitions.d.ts"],
-      "@react": ["lib/react.ts"]
+      "*": ["./src/*"],
+      "@ns": ["./NetscriptDefinitions.d.ts"]
     }
   }
 }
